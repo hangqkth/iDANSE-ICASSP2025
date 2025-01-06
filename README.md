@@ -65,6 +65,7 @@ This would be the required organization of files and folders for reproducing res
 - tests/ (contains files and functions for evaluation at test time)
 | - figs/ (contains resulting model figures)
 | - test_model_with_idanse.py (for testing iDANSE and other reference models: DANSE, EKF, UKF)
+| - ...
 
 - bin/ (contains data generation files)
 | - ssm_models.py (contains the classes for state space models)
@@ -86,8 +87,6 @@ For the `datafile` and `splits` arguments:
 `N` denotes the number of sample trajectories, `T` denotes the length of each sample trajectory. 
 
 
-
-
 ## Evaluation
-1. For reproducing the experiments, make sure data is generated and both iDANSE and DANSE are trained for all SMNRs.
-2. Run ./test/test_model+with_idanse.py, all figures and results can be found in ./test/figs
+1. For reproducing the experiments, first make sure data is generated and both iDANSE and DANSE are trained for all SMNRs.
+2. Run ./test/test_model_with_idanse.py, all figures and results can be found in ./test/figs
