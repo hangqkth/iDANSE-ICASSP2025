@@ -22,19 +22,16 @@ It is recommended to build an environment either in [`pip`](https://packaging.py
 - Filterpy (1.4.5) (for implementation of Unscented Kalman Filter (UKF)): [https://filterpy.readthedocs.io/en/latest/](https://filterpy.readthedocs.io/en/latest/)
 - Tikzplotlib (for figures) [https://github.com/nschloe/tikzplotlib](https://github.com/nschloe/tikzplotlib)
 
-## Datasets used 
-
+## Dataset
 The experiments were carried out using synthetic data generated with non-linear Lorenz attractor SSM.
 Details about these models and their underlying dynamics can be found in `./bin/ssm_models.py`. 
 
 ## Reference models (implemented in PyTorch + Numpy)
-
 - Extended Kalman filter (EKF)
 - Unscented Kalman filter (UKF)
 - DANSE ([DANSE repo](https://github.com/anubhabghosh/danse_jrnl))
 
 ## GPU Support
-
 The training-based methods: DANSE, iDANSE, were run on a NVIDIA GeForce RTX 3070 Laptop GPU. 
 
 ## Code organization
