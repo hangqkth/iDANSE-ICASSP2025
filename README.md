@@ -1,8 +1,8 @@
 # iDANSE: Iterative Data-driven Nonlinear State Estimation of Model-free Hidden Sequences
 
-This is the project repository of iDANSE, an iterative nonlinear state estimation method for model-free hidden sequences. 
+**Accepted in 2025 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2025)**
 
-**iDANSE is accepted in 2025 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2025)**
+This is the project repository of iDANSE, an iterative nonlinear state estimation method for model-free hidden sequences. 
 
 iDANSE is an extension of DANSE: Data-driven Non-linear State Estimation of Model-free Process in Unsupervised Learning Setup. DANSE is accepted in IEEE Transactions on Signal Processing (IEEE-TSP) (March 2024)
 ([pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10485649))([DANSE repo](https://github.com/anubhabghosh/danse_jrnl))
