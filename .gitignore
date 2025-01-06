@@ -169,3 +169,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+/test/figs/
+/run/models/
+/run/log/
+/data/synthetic_data/
+/log/
